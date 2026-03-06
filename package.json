@@ -1,0 +1,23 @@
+{
+  "name": "fm_001",
+  "version": "1.0.0",
+  "description": "This project implements a Playwright-based test automation framework for https://www.saucedemo.com/ using MCP Server, following best practices: Page Object Model, Fixtures, JSON test data, and CI integration.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5",
+    "playwright": "^1.58.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
