@@ -1,5 +1,7 @@
 node_modules/
 playwright-report/
-results/
+test-results/
 *.log
 *.tsbuildinfo
+coverage
+.DS_Store
